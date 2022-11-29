@@ -1,3 +1,14 @@
+/*
+Color Palette
+background color: #000000
+primary: #282A3A
+secondary: #735F32
+tertiary: #C69749
+accent: #735F32
+white: #fff
+black: #000  
+*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,600&display=swap');
 
@@ -13,8 +24,8 @@
 .logo {
     font-size: 2.2rem;
     margin: 0.75rem 2.5rem;
-    color: #c5b358;
-    font-family: 'Ralway', cursive
+    color: #735F32;
+    font-family: 'Raleway', cursive
 }
 
 
@@ -36,7 +47,7 @@
 }
 
 .navbar-links li:hover {
-    background-color: #361356;
+    background-color: #282A3A;
 }
 
 
@@ -76,7 +87,7 @@ height: 20px;
 
 .bottomNav li a {
     text-decoration: none;
-    color: #c5b358;
+    color: #735F32;
     display: block;
 }
 
