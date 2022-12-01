@@ -24,7 +24,7 @@ black: #000
 .logo {
     font-size: 2.2rem;
     margin: 0.75rem 2.5rem;
-    color: #735F32;
+    color: #C69749;
     font-family: 'Raleway', cursive
 }
 
@@ -65,7 +65,7 @@ height: 20px;
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: #C69749;
     border-radius: 10px;
 }
 

@@ -52,7 +52,7 @@ body {
 }
 
 .heroName {
-    color: #735F32;
+    color: #C69749;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -76,14 +76,14 @@ body {
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #282A3A;
+    color: #000;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
 }
 
 .button:hover {
     background-color: #282A3A;
-    color: #735F32;
+    color: #C69749;
     transform: scale(1.5);
     /*(150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -96,8 +96,8 @@ body {
 }
 
 .projectCard {
-    background-color: #fff;
-    color: #282A3A;
+    background-color: #282A3A;
+    color: #C69749;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
