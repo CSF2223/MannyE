@@ -159,14 +159,6 @@ footer {
     display: block;
 }
 
-.filler {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 90vh;
-}
 
 
 @media (min-width: 800px) {
@@ -198,4 +190,13 @@ footer {
     .projectCard {
         max-width: 20%;
     }
+}
+
+    .me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 90vh;
 }
