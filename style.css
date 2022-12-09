@@ -44,12 +44,29 @@ body {
     height: auto;
 }
 
+.textImage {
+    border-radius: 2rem;
+    box-shadow: 5px 5px #000;
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+
 .heroText {
     font-size: 0.7rem;
     padding-bottom: 2rem;
     text-align: center;
     letter-spacing: 5px;
 }
+
+.blogText {
+    font-size: 1rem;
+    padding: 3rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
 
 .heroName {
     color: #C69749;
@@ -158,8 +175,17 @@ footer {
     color: #735F32;
     display: block;
 }
+ .me {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+}
 
-
+.metext {
+    padding: 20rem;
+}
 
 @media (min-width: 800px) {
     .hero{
@@ -192,11 +218,4 @@ footer {
     }
 }
 
-    .me {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        height: 90vh;
-}
+   
